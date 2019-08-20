@@ -10,8 +10,9 @@ Learning Javascript 책을 보면서 공부한 내용을 정리
   자바스크립트 주석
   자바의 주석과 동일
   */
-  
- ## HTML에서 CSS와 JavaScript 불러오는 방법 
+  ```
+ 
+## HTML에서 CSS와 JavaScript 불러오는 방법 
  
   ```html 
 <!doctype html>
