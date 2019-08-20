@@ -29,3 +29,43 @@ Learning Javascript 책을 보면서 공부한 내용을 정리
     </body>
 </html>
   ```
+  
+ ## console 
+ 
+  cosole은 프로그램을 진단할 때 사용하는 텍스트 전용 도구입니다. console은 개발자 도구(F12)에 내용을 출력하고 싶을 경우 사용할 수 있습니다.
+  console에 지정할 수 있는 속성이 여러가지 있는데 대표적으로 `log`와 `dir`가 있습니다.
+  
+  - console.log
+  
+   ```javascript
+   console.log(document.querySelector('.inner'));
+   ```
+   
+   - 개발자 화면에 출력되는 모양 
+   
+   ```html
+  <table class="table">
+      <thead>
+            <tr>
+                <th>수정 날짜</th>
+                <th>복구</th>
+            </tr>
+        </thead>
+  </table>
+  ```
+  
+  - console.dir 
+  
+  ```javascript
+  console.dir(document.querySelector('.inner'));
+  ```
+  
+   - 개발자 화면에 출력되는 모양(객체형식)
+   
+   ```
+  accessKey: ""
+  align: ""
+  assignedSlot: null
+  attributeStyleMap: StylePropertyMap {size: 0}
+  attributes: NamedNodeMap {0: class, class: class, length: 1}
+  ```
